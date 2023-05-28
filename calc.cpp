@@ -1,14 +1,11 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <process.h>
 
 void main() {
     float numone;
     float numtwo;
-    std::cout << "Type the first number: ";
-    std::cin >> numone;
-    std::cout << "Type the second number: ";
-    std::cin >> numtwo;
     float resulta;
     float results;
     float resultd;
@@ -17,6 +14,12 @@ void main() {
     float resultsqrttwo;
     float resultnonesquare;
     float resultntwosquare;
+
+    std::cout << "Type the first number: ";
+    std::cin >> numone;
+    std::cout << "Type the second number: ";
+    std::cin >> numtwo;
+    
     resulta = numone + numtwo;
     results = numone - numtwo;
     resultd = numone / numtwo;
@@ -25,6 +28,7 @@ void main() {
     resultsqrtone = sqrt(numtwo);
     resultnonesquare = numone * numone;
     resultntwosquare = numtwo * numtwo;
+
     std::cout << numone << "+" << numtwo << "=" << resulta << std::endl;
     std::cout << numone << "-" << numtwo << "=" << results << std::endl;
     std::cout << numone << "*" << numtwo << "=" << resultm << std::endl;
@@ -33,4 +37,5 @@ void main() {
     std::cout << numtwo << " squared is " << resultntwosquare << std::endl;
     std::cout << "Square root of " << numone << " is " << resultsqrtone << std::endl;
     std::cout << "Square root of " << numtwo << " is " << resultsqrttwo << std::endl;
+    system("pause");
 }
