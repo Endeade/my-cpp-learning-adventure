@@ -1,9 +1,9 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include <process.h>
+#include <cmath>
 
-void main() {
+int main() {
     float numone;
     float numtwo;
     float resulta;
@@ -25,7 +25,7 @@ void main() {
     resultd = numone / numtwo;
     resultm = numone * numtwo;
     resultsqrtone = sqrt(numone);
-    resultsqrtone = sqrt(numtwo);
+    resultsqrttwo = sqrt(numtwo);
     resultnonesquare = numone * numone;
     resultntwosquare = numtwo * numtwo;
 
