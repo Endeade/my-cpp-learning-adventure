@@ -8,6 +8,6 @@ This repository contains the source code and compiled binaries for the c++ proje
 
 - Step 2: Navigate to the dir with src code
 
-- Step 3: cl <filename>
+- Step 3: cl filename.cpp
     
 filename can be: calc.cpp, helloworld.cpp
